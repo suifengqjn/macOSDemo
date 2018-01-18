@@ -12,6 +12,10 @@
 		1DCCE4A71FF4CD9800946B44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCCE4A51FF4CD9800946B44 /* Main.storyboard */; };
 		1DCCE4AA1FF4CD9800946B44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCCE4A91FF4CD9800946B44 /* main.m */; };
 		1DCCE4B31FF4CDF700946B44 /* RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCCE4B21FF4CDF700946B44 /* RootController.m */; };
+		1DCCE4B91FF4EB7300946B44 /* Mycell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCCE4B81FF4EB7300946B44 /* Mycell.m */; };
+		1DCCE4BF1FF4EC4B00946B44 /* XCFlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCCE4BE1FF4EC4B00946B44 /* XCFlipView.m */; };
+		1DCCE4C61FF4EE0600946B44 /* NSColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCCE4C21FF4EE0600946B44 /* NSColor+Hex.m */; };
+		1DCCE4C71FF4EE0600946B44 /* NSView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCCE4C41FF4EE0600946B44 /* NSView+Frame.m */; };
 		D680CE766A9BB736E41953A8 /* libPods-macOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE7B3DF12AE2F9019C72444 /* libPods-macOS.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +31,15 @@
 		1DCCE4AB1FF4CD9800946B44 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		1DCCE4B11FF4CDF700946B44 /* RootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootController.h; sourceTree = "<group>"; };
 		1DCCE4B21FF4CDF700946B44 /* RootController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootController.m; sourceTree = "<group>"; };
+		1DCCE4B71FF4EB7300946B44 /* Mycell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mycell.h; sourceTree = "<group>"; };
+		1DCCE4B81FF4EB7300946B44 /* Mycell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mycell.m; sourceTree = "<group>"; };
+		1DCCE4BD1FF4EC4B00946B44 /* XCFlipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCFlipView.h; sourceTree = "<group>"; };
+		1DCCE4BE1FF4EC4B00946B44 /* XCFlipView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCFlipView.m; sourceTree = "<group>"; };
+		1DCCE4C01FF4ED8300946B44 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1DCCE4C21FF4EE0600946B44 /* NSColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Hex.m"; sourceTree = "<group>"; };
+		1DCCE4C31FF4EE0600946B44 /* NSView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Frame.h"; sourceTree = "<group>"; };
+		1DCCE4C41FF4EE0600946B44 /* NSView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Frame.m"; sourceTree = "<group>"; };
+		1DCCE4C51FF4EE0600946B44 /* NSColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Hex.h"; sourceTree = "<group>"; };
 		ADE7B3DF12AE2F9019C72444 /* libPods-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46E295B77941E5B55092E87 /* Pods-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-macOS/Pods-macOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,13 +81,62 @@
 				1DCCE49E1FF4CD9800946B44 /* AppDelegate.m */,
 				1DCCE4B11FF4CDF700946B44 /* RootController.h */,
 				1DCCE4B21FF4CDF700946B44 /* RootController.m */,
+				1DCCE4C11FF4EE0600946B44 /* Category */,
+				1DCCE4BC1FF4EC3600946B44 /* BaseView */,
+				1DCCE4B61FF4EB1900946B44 /* CommonView */,
+				1DCCE4B51FF4E6B300946B44 /* Methed */,
+				1DCCE4B41FF4E6B300946B44 /* UI */,
 				1DCCE4A31FF4CD9800946B44 /* Assets.xcassets */,
 				1DCCE4A51FF4CD9800946B44 /* Main.storyboard */,
 				1DCCE4A81FF4CD9800946B44 /* Info.plist */,
 				1DCCE4A91FF4CD9800946B44 /* main.m */,
+				1DCCE4C01FF4ED8300946B44 /* PrefixHeader.pch */,
 				1DCCE4AB1FF4CD9800946B44 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		1DCCE4B41FF4E6B300946B44 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1DCCE4B51FF4E6B300946B44 /* Methed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Methed;
+			sourceTree = "<group>";
+		};
+		1DCCE4B61FF4EB1900946B44 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				1DCCE4B71FF4EB7300946B44 /* Mycell.h */,
+				1DCCE4B81FF4EB7300946B44 /* Mycell.m */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		1DCCE4BC1FF4EC3600946B44 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				1DCCE4BD1FF4EC4B00946B44 /* XCFlipView.h */,
+				1DCCE4BE1FF4EC4B00946B44 /* XCFlipView.m */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		1DCCE4C11FF4EE0600946B44 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1DCCE4C21FF4EE0600946B44 /* NSColor+Hex.m */,
+				1DCCE4C31FF4EE0600946B44 /* NSView+Frame.h */,
+				1DCCE4C41FF4EE0600946B44 /* NSView+Frame.m */,
+				1DCCE4C51FF4EE0600946B44 /* NSColor+Hex.h */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		5A2E83A70A7A02D8ACD52272 /* Frameworks */ = {
@@ -219,7 +281,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DCCE4AA1FF4CD9800946B44 /* main.m in Sources */,
+				1DCCE4BF1FF4EC4B00946B44 /* XCFlipView.m in Sources */,
+				1DCCE4B91FF4EB7300946B44 /* Mycell.m in Sources */,
 				1DCCE49F1FF4CD9800946B44 /* AppDelegate.m in Sources */,
+				1DCCE4C61FF4EE0600946B44 /* NSColor+Hex.m in Sources */,
+				1DCCE4C71FF4EE0600946B44 /* NSView+Frame.m in Sources */,
 				1DCCE4B31FF4CDF700946B44 /* RootController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +416,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = VN226642G5;
+				GCC_PREFIX_HEADER = macOS/PrefixHeader.pch;
 				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.suifeng.macOS;
@@ -366,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = VN226642G5;
+				GCC_PREFIX_HEADER = macOS/PrefixHeader.pch;
 				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.suifeng.macOS;
